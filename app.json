@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "TaskManager",
+    "slug": "taskmanager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/Images/taskmanager-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/Images/taskmanager-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "fr.unicaen.taskmanager",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/Images/taskmanager-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./src/Images/taskmanager-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "84322231-0f6c-4e66-87e8-da96f96bf13b"
+      }
+    },
+    "owner": "eymardk"
+  }
+}
